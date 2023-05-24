@@ -1,0 +1,106 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background: #00C9FF;  
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF); 
+    background: linear-gradient(to right, #92FE9D, #00C9FF); 
+
+}
+
+.main{
+    position: relative; 
+    background: #C6FFDD;  
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+
+    height: 300px;
+    width: 500px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#longurl{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 30%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(23, 22, 22);
+}
+
+#shorten:hover{
+    background-color: rgb(244, 9, 9);
+    text-decoration: underline;
+}
+
+#shorturl{
+    position: relative;
+    top: 38%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 40%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(30, 29, 29);
+}
+
+#copy:hover{
+    background-color: rgb(244, 9, 9);
+}
+
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 15%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: Vardana;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(160, 0, 0);
+}
